@@ -1,0 +1,33 @@
+/usr/bin/xcrun xcodebuild -workspace /Users/rhysmorgan/Developer/Swift/RealmCarthageExample/Carthage/Checkouts/realm-cocoa/Carthage/Realm.xcworkspace -scheme Realm\ iOS\ static -configuration Release -derivedDataPath /Users/rhysmorgan/Library/Caches/org.carthage.CarthageKit/DerivedData/12.5_12E262/realm-cocoa/v5.5.2 -sdk iphoneos ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY= CARTHAGE=YES archive VALIDATE_WORKSPACE=NO -archivePath /var/folders/zb/lrz0j40x6xjgt31l5122nvww0000gn/T/realm-cocoa SKIP_INSTALL=YES GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=NO CLANG_ENABLE_CODE_COVERAGE=NO STRIP_INSTALLED_PRODUCT=NO (launched in /Users/rhysmorgan/Developer/Swift/RealmCarthageExample/Carthage/Checkouts/realm-cocoa)Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -workspace /Users/rhysmorgan/Developer/Swift/RealmCarthageExample/Carthage/Checkouts/realm-cocoa/Carthage/Realm.xcworkspace -scheme "Realm iOS static" -configuration Release -derivedDataPath /Users/rhysmorgan/Library/Caches/org.carthage.CarthageKit/DerivedData/12.5_12E262/realm-cocoa/v5.5.2 -sdk iphoneos ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY= CARTHAGE=YES archive VALIDATE_WORKSPACE=NO -archivePath /var/folders/zb/lrz0j40x6xjgt31l5122nvww0000gn/T/realm-cocoa SKIP_INSTALL=YES GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=NO CLANG_ENABLE_CODE_COVERAGE=NO STRIP_INSTALLED_PRODUCT=NO
+
+User defaults from command line:
+    IDEArchivePathOverride = /var/folders/zb/lrz0j40x6xjgt31l5122nvww0000gn/T/realm-cocoa
+    IDEDerivedDataPathOverride = /Users/rhysmorgan/Library/Caches/org.carthage.CarthageKit/DerivedData/12.5_12E262/realm-cocoa/v5.5.2
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Build settings from command line:
+    CARTHAGE = YES
+    CLANG_ENABLE_CODE_COVERAGE = NO
+    CODE_SIGN_IDENTITY = 
+    CODE_SIGNING_REQUIRED = NO
+    GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO
+    ONLY_ACTIVE_ARCH = NO
+    SDKROOT = iphoneos14.5
+    SKIP_INSTALL = YES
+    STRIP_INSTALLED_PRODUCT = NO
+    VALIDATE_WORKSPACE = NO
+
+Downloading dependency: sync 5.0.33 from https://static.realm.io/downloads/sync/realm-sync-xcframework-5.0.33.tar.xz
+ld: building for iOS Simulator, but linking in .tbd built for macOS/Mac Catalyst, file '/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libz.tbd' for architecture x86_64
+clang-12: error: linker command failed with exit code 1 (use -v to see invocation)
+note: Using new build system
+note: Using codesigning identity override: 
+note: Planning build
+note: Analyzing workspace
+note: Constructing build description
+note: Build preparation complete
+error: There is no XCFramework found at '/Users/rhysmorgan/Developer/Swift/RealmCarthageExample/Carthage/Checkouts/realm-cocoa/core/realm-sync.xcframework'. (in target 'Realm iOS static' from project 'Realm')
+
+** ARCHIVE FAILED **
+
